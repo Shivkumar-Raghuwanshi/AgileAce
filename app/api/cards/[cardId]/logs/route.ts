@@ -27,6 +27,7 @@ export async function GET(
       take: 3,
     });
 
+    
     return NextResponse.json(auditLogs);
   } catch (error) {
     return new NextResponse("Internal Error", { status: 500 });
