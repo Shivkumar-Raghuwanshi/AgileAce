@@ -31,7 +31,7 @@ export const BoardList = async () => {
   const isPro = await checkSubscription();
 
   return (
-    <div className="space-y-4 bg-black/5 p-6 rounded-md">
+    <div className="space-y-4 bg-black/10 p-6 rounded-md">
       <div className="flex items-center font-semibold text-lg text-blue-700">
         <User2 className="h-6 w-6 mr-2" />
         Your boards
