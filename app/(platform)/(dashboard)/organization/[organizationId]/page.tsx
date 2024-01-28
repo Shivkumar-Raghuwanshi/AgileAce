@@ -6,6 +6,8 @@ import { Info } from "./_components/info";
 import { BoardList } from "./_components/board-list";
 import { checkSubscription } from "@/lib/subscription";
 
+export const dynamic = "force-dynamic";
+
 const OrganizationIdPage = async () => {
   const isPro = await checkSubscription();
 
