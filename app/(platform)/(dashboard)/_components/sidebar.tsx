@@ -71,7 +71,7 @@ export const Sidebar = ({
 
   return (
     <>
-      <div className="font-medium text-xs md:text-xl flex items-center mb-1 bg-slate-100">
+      <div className="font-medium text-sm md:text-xl flex items-center mb-1 bg-slate-100 p-2">
         <span className="pl-4">
           Workspaces
         </span>
@@ -92,7 +92,7 @@ export const Sidebar = ({
       <Accordion
         type="multiple"
         defaultValue={defaultAccordionValue}
-        className="space-y-2 "
+        className="space-y-2 bg-black/90"
       >
         {userMemberships.data.map(({ organization }) => (
           <NavItem
