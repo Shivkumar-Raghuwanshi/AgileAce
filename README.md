@@ -6,6 +6,10 @@ Live Website: https://agile-ace.vercel.app/
 
 AgileAce Project is built with a modern tech stack. It is designed to provide an efficient and user-friendly project management tool that helps teams collaborate and organize their work more effectively.
 
+## Watch the video by clicking on the thumbnail below:
+
+[![YouTube Video Thumbnail](https://img.youtube.com/vi/gmNUFQTJSQo/maxresdefault.jpg)](https://www.youtube.com/embed/gmNUFQTJSQo?si=P59hwJI79mm9FZVf)
+
 ## Tech Stack
 
 - **Next.js 14.1**: A React framework that enables features such as server-side rendering and generating static websites for React based web applications.
